@@ -1,0 +1,38 @@
+/*Damos un estilo de fuente al título*/
+body {
+  font-family: fantasy;
+
+}
+ /*Aplicamos un display-bloque*/
+section {
+  /*outline: 1px solid blue;*/
+  margin-left: 40px;
+  overflow: auto;
+  display: inline-block;
+
+}
+/* Realizaremos un div para contener a la imagen*/
+/*utilizamos la propiedad position*/
+div {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  float: left;
+  margin: 1rem 1rem; /*Damos espacio entre imagen*/
+  /**/
+  position: relative;
+ }
+
+img   {
+  /*outline: 1px solid yellow;*/
+
+  }
+/*Utilizamos absolute*/
+ p {
+  position: absolute;
+  margin: 0;
+  bottom: 10px;
+  padding-left: 100px;
+
+
+
+}
