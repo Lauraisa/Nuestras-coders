@@ -14,7 +14,7 @@ section {
 /* Realizaremos un div para contener a la imagen*/
 /*utilizamos la propiedad position*/
 div {
-  outline: 1px solid red;
+ /* outline: 1px solid red;*/
   box-sizing: border-box;
   float: left;
   margin: 1rem 1rem; /*Damos espacio entre imagen*/
@@ -32,6 +32,8 @@ img   {
   margin: 0;
   bottom: 10px;
   padding-left: 100px;
+  color: white;
+  font-weight: bolder;
 
 
 
